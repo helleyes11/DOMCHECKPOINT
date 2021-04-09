@@ -47,7 +47,7 @@ document.getElementById('total').innerHTML=total;
 
 // button like
 
-    var element = document.getElementsByClassName("like");
+    var element = document.querySelectorAll(".like");
    
    
     for(let i=0;i<element.length;i++){
